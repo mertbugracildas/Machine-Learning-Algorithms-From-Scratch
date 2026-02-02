@@ -33,3 +33,33 @@ Model, `sklearn` gibi hazır kütüphane fonksiyonları yerine, algoritmanın ma
 ### Teknolojiler ve Veri Seti
 * **Teknolojiler:** Python, Pandas, NumPy, Matplotlib
 * **Veri:** `exam_score.csv` dosyası, iki sınav notunu ve öğrencinin başarı durumunu (0: Kaldı, 1: Geçti) içerir.
+
+---
+
+## 🇬🇧 Project 2: Linear Regression
+This project implements a Linear Regression model to predict a continuous value (dependent variable) based on an independent variable.
+
+### Implementation Details
+The algorithm finds the "best fit line" for the given dataset by minimizing the error.
+* **Model:** $y = mx + b$ (Equation of a line).
+* **Cost Function (MSE):** Calculated to measure the average squared difference between the estimated values and the actual value.
+* **Gradient Descent:** Used to update the weights ($m$) and bias ($b$) to reach the minimum error.
+
+### Technologies & Dataset
+* **Tech:** Python, Matplotlib (for plotting the regression line).
+* **Data:** `dataset.txt` contains the data points used for training the model.
+
+---
+
+## 🇹🇷 Proje 2: Doğrusal Regresyon (Linear Regression)
+Bu proje, bağımsız bir değişkene dayanarak sürekli bir değeri (bağımlı değişken) tahmin etmek için Doğrusal Regresyon modelini uygular.
+
+### Uygulama Detayları
+Algoritma, hatayı minimize ederek verilen veri seti için "en iyi uyan doğruyu" (best fit line) bulur.
+* **Model:** $y = mx + b$ (Doğru denklemi).
+* **Maliyet Fonksiyonu (MSE):** Tahmin edilen değerler ile gerçek değerler arasındaki karesel farkların ortalamasını ölçmek için hesaplandı.
+* **Gradient Descent:** Hatayı minimuma indirmek için ağırlıkları ($m$) ve sapmayı ($b$) güncellemek amacıyla kullanıldı.
+
+### Teknolojiler ve Veri Seti
+* **Teknolojiler:** Python, Matplotlib (regresyon doğrusunu çizdirmek için).
+* **Veri:** `dataset.txt` dosyası, modeli eğitmek için kullanılan veri noktalarını içerir.
