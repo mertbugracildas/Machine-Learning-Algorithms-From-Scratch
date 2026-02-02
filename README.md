@@ -94,3 +94,31 @@ Model, verilen bir veri noktasının her bir sınıfa ait olma olasılığını 
 ### Teknolojiler ve Veri Seti
 * **Teknolojiler:** Python, NumPy (olasılık hesaplamaları için).
 * **Veri:** Özellikleri ve ikili sınıf etiketlerini içeren `tekli.txt` (Eğitim) ve `teskli_test.txt` (Test) dosyaları.
+
+---
+
+## 🇬🇧 Project 4: Multi-Class Naive Bayes Classifier
+This project extends the Naive Bayes algorithm to handle multi-class classification problems, where the data needs to be categorized into more than two groups.
+
+### Implementation Details
+Similar to the binary version, this model calculates the probability of a data point belonging to each possible class and assigns it to the class with the highest probability.
+* **Multi-Class Logic:** Instead of just $P(Class A)$ vs $P(Class B)$, the model computes posterior probabilities for $C_1, C_2, ..., C_n$ and selects the maximum: $\hat{y} = \arg\max_{k} P(C_k | x)$.
+* **Handling Multiple Features:** The likelihood is calculated by multiplying the probabilities of individual features (assuming independence).
+
+### Technologies & Dataset
+* **Tech:** Python, NumPy.
+* **Data:** `coklu.txt` (Training) and `coklu_test.txt` (Testing) containing features and labels for multiple classes (e.g., Class 0, Class 1, Class 2).
+
+---
+
+## 🇹🇷 Proje 4: Çok Sınıflı (Multi-Class) Naive Bayes
+Bu proje, Naive Bayes algoritmasını ikiden fazla kategoriye ayrılması gereken veri setleri için genişletir (Çok Sınıflı Sınıflandırma).
+
+### Uygulama Detayları
+İkili versiyona benzer şekilde, bu model bir veri noktasının olası her bir sınıfa ait olma olasılığını hesaplar ve en yüksek olasılığa sahip olan sınıfı atar.
+* **Çok Sınıflı Mantık:** Sadece A veya B sınıfı yerine, model $C_1, C_2, ..., C_n$ sınıfları için sonsal olasılıkları hesaplar ve maksimum olanı seçer: $\hat{y} = \arg\max_{k} P(C_k | x)$.
+* **Çoklu Özellik Yönetimi:** Olabilirlik (Likelihood), özelliklerin bağımsız olduğu varsayılarak tek tek olasılıkların çarpımıyla hesaplanır.
+
+### Teknolojiler ve Veri Seti
+* **Teknolojiler:** Python, NumPy.
+* **Veri:** `coklu.txt` (Eğitim) ve `coklu_test.txt` (Test) dosyaları, birden fazla sınıf (Örn: Sınıf 0, Sınıf 1, Sınıf 2) için etiketleri içerir.
