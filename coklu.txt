@@ -1,0 +1,18 @@
+X_train = [
+        ["Az",   "Lisans", "Yok"], # -> RED
+        ["Az",   "Lisans", "Var"], # -> MULAKAT
+        ["Orta", "Lisans", "Yok"], # -> MULAKAT
+        ["Orta", "Yüksek", "Var"], # -> ISE_AL
+        ["Çok",  "Yüksek", "Yok"], # -> ISE_AL
+        ["Çok",  "Doktora","Var"], # -> ISE_AL
+        ["Az",   "Yüksek", "Yok"], # -> RED
+        ["Orta", "Doktora","Yok"], # -> MULAKAT
+        ["Çok",  "Lisans", "Var"], # -> ISE_AL
+        ["Az",   "Doktora","Var"]  # -> MULAKAT
+    ]
+
+    # y_train (Etiketler / Sınıflar)
+    y_train = [
+        "RED", "MULAKAT", "MULAKAT", "ISE_AL", "ISE_AL", 
+        "ISE_AL", "RED", "MULAKAT", "ISE_AL", "MULAKAT"
+    ]

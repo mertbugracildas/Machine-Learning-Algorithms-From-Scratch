@@ -1,0 +1,5 @@
+test_data = [
+        ["Çok", "Lisans", "Yok"],   # Tecrübeli ama referanssız
+        ["Az", "Doktora", "Yok"],   # Çok okumuş ama tecrübesiz ve referanssız
+        ["Orta", "Yüksek", "Var"]   # İdeal orta aday
+    ]
