@@ -1,4 +1,3 @@
-#231312055 MERT BUĞRA ÇİLDAŞ ödev yapımında yapay zeka kullandım
 import math
 
 #VERİLER
@@ -71,4 +70,5 @@ print("-" * 45)
 
 for instance in test_data:
     result = predict(instance)
+
     print(f"{str(instance):<30} | {result}")
