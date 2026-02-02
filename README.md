@@ -122,3 +122,17 @@ Bu proje, Naive Bayes algoritmasını ikiden fazla kategoriye ayrılması gereke
 ### Teknolojiler ve Veri Seti
 * **Teknolojiler:** Python, NumPy.
 * **Veri:** `coklu.txt` (Eğitim) ve `coklu_test.txt` (Test) dosyaları, birden fazla sınıf (Örn: Sınıf 0, Sınıf 1, Sınıf 2) için etiketleri içerir.
+
+---
+
+## 5. K-Means Clustering (using Scikit-Learn)
+
+**🇬🇧 Description:**
+Unlike the previous implementations built from scratch, this project utilizes the industry-standard **Scikit-Learn** library.
+* **Objective:** To demonstrate familiarity with professional machine learning tools used in real-world applications.
+* **Library:** `sklearn.cluster.KMeans` used for optimizing data grouping.
+
+**🇹🇷 Açıklama:**
+Sıfırdan (from scratch) geliştirilen önceki uygulamaların aksine, bu projede endüstri standardı olan **Scikit-Learn** kütüphanesi kullanılmıştır.
+* **Amaç:** Gerçek dünya uygulamalarında kullanılan profesyonel makine öğrenmesi araçlarına olan hakimiyeti göstermektir.
+* **Kütüphane:** Veri gruplandırmasını optimize etmek için `sklearn.cluster.KMeans` kullanılmıştır.
