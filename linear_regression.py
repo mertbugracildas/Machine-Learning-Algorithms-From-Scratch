@@ -1,4 +1,3 @@
-# 231312055 Mert Buğra Çildaş - Lojistik Regresyon yapay zeka ile düzenlendi.
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -98,4 +97,5 @@ new_pop_final = np.concatenate((np.ones((new_populations.shape[0], 1)), new_pop_
 new_predictions = np.dot(new_pop_final, final_theta)
 print("---")
 print(f"{new_populations[0][0]*10000:.0f} nüfus için kâr tahmini: {new_predictions[0][0]*10000:.2f} TL")
+
 print(f"{new_populations[1][0]*10000:.0f} nüfus için kâr tahmini: {new_predictions[1][0]*10000:.2f} TL")
