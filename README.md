@@ -63,3 +63,34 @@ Algoritma, hatayı minimize ederek verilen veri seti için "en iyi uyan doğruyu
 ### Teknolojiler ve Veri Seti
 * **Teknolojiler:** Python, Matplotlib (regresyon doğrusunu çizdirmek için).
 * **Veri:** `dataset.txt` dosyası, modeli eğitmek için kullanılan veri noktalarını içerir.
+
+---
+
+## 🇬🇧 Project 3: Naive Bayes Classifier
+This project implements the Naive Bayes algorithm, a probabilistic classifier based on Bayes' Theorem, specifically for binary classification tasks.
+
+### Implementation Details
+The model predicts the class of a given data point by calculating the probability of it belonging to each class.
+* **Bayes' Theorem:** Calculates the posterior probability $P(c|x)$ using the prior probability $P(c)$ and likelihood $P(x|c)$.
+  * Formula: $P(c|x) = \frac{P(x|c) \cdot P(c)}{P(x)}$
+* **Binary Classification:** The model classifies inputs into two distinct categories (e.g., 0 or 1) by comparing the calculated probabilities.
+* **Gaussian Distribution:** (If used in code) Assumes that the continuous values associated with each class are distributed according to a Gaussian (Normal) distribution.
+
+### Technologies & Dataset
+* **Tech:** Python, NumPy (for probabilistic calculations).
+* **Data:** `tekli.txt` (Training) and `teskli_test.txt` (Testing) datasets containing features and binary class labels.
+
+---
+
+## 🇹🇷 Proje 3: Naive Bayes Sınıflandırıcısı
+Bu proje, ikili sınıflandırma (binary classification) görevleri için Bayes Teoremi'ne dayanan olasılıksal bir sınıflandırıcı olan Naive Bayes algoritmasını uygular.
+
+### Uygulama Detayları
+Model, verilen bir veri noktasının her bir sınıfa ait olma olasılığını hesaplayarak tahminleme yapar.
+* **Bayes Teoremi:** Önsel olasılık (prior) $P(c)$ ve olabilirlik (likelihood) $P(x|c)$ değerlerini kullanarak sonsal olasılığı (posterior) $P(c|x)$ hesaplar.
+* **İkili Sınıflandırma:** Model, hesaplanan olasılıkları karşılaştırarak girdileri iki farklı kategoriye (örneğin 0 veya 1) ayırır.
+* **Gauss Dağılımı:** (Kodda kullanıldıysa) Her bir sınıfla ilişkili sürekli değerlerin bir Gauss (Normal) dağılımına uyduğunu varsayar.
+
+### Teknolojiler ve Veri Seti
+* **Teknolojiler:** Python, NumPy (olasılık hesaplamaları için).
+* **Veri:** Özellikleri ve ikili sınıf etiketlerini içeren `tekli.txt` (Eğitim) ve `teskli_test.txt` (Test) dosyaları.
