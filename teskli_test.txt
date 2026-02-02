@@ -1,0 +1,5 @@
+test_sentences = [
+    "hakem maçı bitirdi",
+    "yeni seçim yasası",
+    "bugün hava çok güzel" # Alakasız cümle
+]

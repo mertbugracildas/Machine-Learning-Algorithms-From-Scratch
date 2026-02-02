@@ -1,0 +1,10 @@
+training_data = [
+    ("maç çok heyecanlıydı", "spor"),
+    ("hakem penaltı verdi", "spor"),
+    ("gol kralı belli oldu", "spor"),
+    ("seçim sonuçları açıklandı", "siyaset"),
+    ("meclis yeni yasa çıkardı", "siyaset"),
+    ("oy oranları yükseldi", "siyaset"),
+    ("maçta çok gol oldu", "spor"),     # Karışık örnek
+    ("bakan açıklama yaptı", "siyaset") # Karışık örnek
+]
