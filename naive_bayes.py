@@ -1,4 +1,3 @@
-#231312055 Mert Buğra ÇİLDAŞ yapay zeka kullandım hocam
 import math
 #veri seti
 training_data = [
@@ -51,4 +50,5 @@ def predict(sentence):
 print("-" * 30)
 for sentence in test_sentences:
     result = predict(sentence)
+
     print(f"Cümle: {sentence:<20} -> Tahmin: {result}")
